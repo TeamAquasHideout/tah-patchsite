@@ -2,10 +2,10 @@
   "file": "./patches.zip",
   "patches": [
     {
-      "file": "pokeemerald-hearth_0.1.21.bps",
-      "name": "Pokémon Hearth v0.1.21",
+      "file": "pokeemerald-hearth_0.1.22.bps",
+      "name": "Pokémon Hearth v0.1.22",
       "description": "",
-      "outputName": "Pokémon Hearth v0.1.21"
+      "outputName": "Pokémon Hearth v0.1.22"
     }
   ]
 }

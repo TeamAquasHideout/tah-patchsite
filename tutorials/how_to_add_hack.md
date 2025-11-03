@@ -22,7 +22,7 @@ Firstly we'll create your very own patching page, allowing information about you
 ### Visuals
 1. First, you must create your ROM Patching folder. This can be done two ways:
     - In the root of your fork, use the python script `python3 scripts/new_hack.py name` where `name` is your hack name **with no spaces**.
-    - Duplicate the `hacks/template` folder and rename it to match the name of your game, **with no spaces**.
+    - Duplicate the `patches/template` folder and rename it to match the name of your game, **with no spaces**.
     > Note: Your hack name will also be part of the pages URL.
 2. Inside your new folder, open `config.js` and edit it with your hack’s `title:` and the ROM `base:` used for your patches.
 3. Within this same file, the `discord:`, `github:`, `pokécommunity:` and/or `reddit:` fields can be filled with links in order to display buttons for each on your patching page.
@@ -59,7 +59,7 @@ Firstly we'll create your very own patching page, allowing information about you
     > If this zip file is too large, errors may occur with the patcher, although the exact file size that causes this is unknown.
     > If either of these occur, try reducing the number of patches hosted.
     
-    The python script `patch_zip.py` in the `scripts` folder is provided to help generate a properly formatted `.zip` file from your patch folder. It can by run while parsing an argument containing the directory of your patching page directory, eg. `python3 scripts/patch_zip.py hacks/template`.
+    The python script `patch_zip.py` in the `scripts` folder is provided to help generate a properly formatted `.zip` file from your patch folder. It can by run while parsing an argument containing the directory of your patching page directory, eg. `python3 scripts/patch_zip.py patches/template`.
 
 ---
 

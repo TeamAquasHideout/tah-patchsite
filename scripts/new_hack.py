@@ -7,8 +7,8 @@ def copy_template(destination_name, overwrite=False):
         print(f"Cannot use '{destination_name}' as destination.")
         return
 
-    source = "./hacks/template"
-    destination = f"./hacks/{destination_name}"
+    source = "./patches/template"
+    destination = f"./patches/{destination_name}"
     patches_dir = os.path.join(destination, "patches")
 
     if not os.path.exists(source):

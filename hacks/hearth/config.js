@@ -1,5 +1,5 @@
 window.TARP_CONFIG = {
-  title: "Pokémon Hearth",
+  title: "Pokémon Hearth | Romhack official download page",
   base: "Pokémon Emerald (USA, Europe)",
 
   externalLinks: {

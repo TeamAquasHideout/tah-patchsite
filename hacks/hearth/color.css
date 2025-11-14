@@ -6,6 +6,20 @@
     --page-rom-patcher-link-color: ;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5 {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
 #rom-patcher-container {
     width: 100%;
     padding: 30px;
@@ -45,6 +59,16 @@ a:hover {
     text-decoration: none;
 }
 
-* {
-    box-sizing: border-box;
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: rgb(64, 64, 64);
+    padding-left: 15px;
+}
+
+.contribution-detail {
+    color: grey;
 }

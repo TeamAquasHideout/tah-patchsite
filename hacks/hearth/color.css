@@ -89,7 +89,7 @@ h4 {
     color: grey;
 }
 
-.credits {
+#credits {
     padding: 0 !important;
     display: flex;
     flex-direction: column;
@@ -97,7 +97,7 @@ h4 {
     align-items: flex-start;
 }
 
-.credits .section {
+#credits .section {
     display: flex;
     flex-direction: column;
     justify-content: center;

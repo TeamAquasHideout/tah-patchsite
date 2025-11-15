@@ -66,7 +66,7 @@
 		<img id="logoImage" src="./logo.png" alt="{title} Logo" width="35%">
 	</header>
 
-	<div id="rom-patcher-container" style="justify-content:center;align-items:center;">
+	<div id="rom-patcher-container" style="justify-content:center;align-items:center;" class="block">
 	</div>
 	<script>
 		fetch('./info.md')
@@ -98,7 +98,7 @@
 			#rom-patcher-button-apply
 		The rest of elements are informative and can be removed, though it's recommended to keep them for a better user experience.
 	-->
-	<div id="rom-patcher-container">
+	<div id="rom-patcher-container" class="block">
 		<span class="base-rom text-mono text-muted">
 			Base ROM: {base}
 		</span>
@@ -180,169 +180,175 @@
 
 	</div>
 
-	<div id="rom-patcher-container" class="credits">
-		<h2>Credits</h2>
+	<div class="block credits">
+		<h2 class="block-title">Credits</h2>
 
-		<h3>Creator, Lead Dev, Lead Artist</h3>
-		<p><strong>Doodle</strong> (Eva). I do most of the graphics, scripting and mapping, and a little bit of everything!</p>
+		<div class="section">
+			<h3>Creator, Lead Dev, Lead Artist</h3>
+			<p><strong>Doodle</strong> (Eva). I do most of the graphics, scripting and mapping, and a little bit of
+				everything!</p>
 
-		<h3>Code base</h3>
-		<ul>
-			<li>Gamefreak & TPC</li>
-			<li>Pret <span class="contribution-detail">(<code>pokeemerald</code> decomp)</span></li>
-			<li>Romhacking Hideout / Expansion team <span class="contribution-detail">(<code>pokeemerald-expansion</code>)</span></li>
-		</ul>
+			<h3>Code base</h3>
+			<ul>
+				<li>Gamefreak & TPC</li>
+				<li>Pret <span class="contribution-detail">(<code>pokeemerald</code> decomp)</span></li>
+				<li>Romhacking Hideout / Expansion team <span
+						class="contribution-detail">(<code>pokeemerald-expansion</code>)</span></li>
+			</ul>
 
-		<h3>Features / Code</h3>
-		<h4>NPC scheduling system</h4>
-		<ul>
-			<li>Ruby</li>
-			<li>Zatsu</li>
-		</ul>
-		<h4>Chatot Post system</h4>
-		<ul>
-			<li>Zatsu</li>
-		</ul>
-		<h4>Silly Pokémon names system</h4>
-		<ul>
-			<li>Zatsu</li>
-		</ul>
-		<h4>Campfire system</h4>
-		<ul>
-			<li>Zatsu</li>
-		</ul>
-		<h4>Traveling merchant system</h4>
-		<ul>
-			<li>Zatsu</li>
-		</ul>
-		<h4>Party Pokémon control system</h4>
-		<ul>
-			<li>Kildie</li>
-		</ul>
-		<h4>Unique Pokémon hues</h4>
-		<ul>
-			<li>CitrusBolt</li>
-			<li>RavePossum</li>
-		</ul>
-		<h4>Professor speech intro</h4>
-		<ul>
-			<li>Mudskip</li>
-		</ul>
-		<h4>Shop UI base</h4>
-		<ul>
-			<li>Mudskip</li>
-		</ul>
-		<h4>Field mugshot system</h4>
-		<ul>
-			<li>Mudskip</li>
-		</ul>
-		<h4>Quest log system</h4>
-		<ul>
-			<li>Ghoulsash</li>
-			<li>Ruby</li>
-			<li>PSF</li>
-		</ul>
-		<h4>Additional object movements</h4>
-		<ul>
-			<li>Jamie</li>
-		</ul>
-		<h4>Misc. & Bugfixes</h4>
-		<ul>
-			<li>Jamie <span class="contribution-detail">(Dream sleep & more)</span></li>
-			<li>Hedara</li>
-			<li>Wiz</li>
-		</ul>
+			<h3>Features / Code</h3>
+			<h4>NPC scheduling system</h4>
+			<ul>
+				<li>Ruby</li>
+				<li>Zatsu</li>
+			</ul>
+			<h4>Chatot Post system</h4>
+			<ul>
+				<li>Zatsu</li>
+			</ul>
+			<h4>Silly Pokémon names system</h4>
+			<ul>
+				<li>Zatsu</li>
+			</ul>
+			<h4>Campfire system</h4>
+			<ul>
+				<li>Zatsu</li>
+			</ul>
+			<h4>Traveling merchant system</h4>
+			<ul>
+				<li>Zatsu</li>
+			</ul>
+			<h4>Party Pokémon control system</h4>
+			<ul>
+				<li>Kildie</li>
+			</ul>
+			<h4>Unique Pokémon hues</h4>
+			<ul>
+				<li>CitrusBolt</li>
+				<li>RavePossum</li>
+			</ul>
+			<h4>Professor speech intro</h4>
+			<ul>
+				<li>Mudskip</li>
+			</ul>
+			<h4>Shop UI base</h4>
+			<ul>
+				<li>Mudskip</li>
+			</ul>
+			<h4>Field mugshot system</h4>
+			<ul>
+				<li>Mudskip</li>
+			</ul>
+			<h4>Quest log system</h4>
+			<ul>
+				<li>Ghoulsash</li>
+				<li>Ruby</li>
+				<li>PSF</li>
+			</ul>
+			<h4>Additional object movements</h4>
+			<ul>
+				<li>Jamie</li>
+			</ul>
+			<h4>Misc. & Bugfixes</h4>
+			<ul>
+				<li>Jamie <span class="contribution-detail">(Dream sleep & more)</span></li>
+				<li>Hedara</li>
+				<li>Wiz</li>
+			</ul>
 
-		<h3>Graphics</h3>
-		<h4>UI</h4>
-		<ul>
-			<li>Turtleye <span class="contribution-detail">(Dialogue box background, mugshot backgrounds)</span></li>
-		</ul>
-		<h4>Sprites & tiles</h4>
-		<ul>
-			<li>Cup Nooble & Zatsu <span class="contribution-detail">(Tall grass tile base)</span></li>
-			<li>Kwenio <span class="contribution-detail">(Leaf backsprite base)</span></li>
-			<li>Leob0505 <span class="contribution-detail">(House base)</span></li>
-			<li>RedSquidz <span class="contribution-detail">(Crobat Shadows designs)</span></li>
-			<li>Ogwon <span class="contribution-detail">(Yetizzard sprite base)</span></li>
-			<li>Oom <span class="contribution-detail">(Raitora sprite base)</span></li>
-			<li>Roger Wrightshoe <span class="contribution-detail">(Seashell tile)</span></li>
-			<li>Thedeadheroalistair <span class="contribution-detail">(Misc. tiles)</span></li>
-			<li>Turtleye <span class="contribution-detail">(Berry tree base)</span></li>
-		</ul>
-		<h4>Battle terrain bases</h4>
-		<ul>
-			<li>RavePossum</li>
-			<li>Zuki</li>
-		</ul>
-		<h4>Fonts</h4>
-		<ul>
-			<li>Brush Strokes - fontmeme.com <span class="contribution-detail">(title screen "Hearth" font)</span></li>
-		</ul>
+			<h3>Graphics</h3>
+			<h4>UI</h4>
+			<ul>
+				<li>Turtleye <span class="contribution-detail">(Dialogue box background, mugshot backgrounds)</span>
+				</li>
+			</ul>
+			<h4>Sprites & tiles</h4>
+			<ul>
+				<li>Cup Nooble & Zatsu <span class="contribution-detail">(Tall grass tile base)</span></li>
+				<li>Kwenio <span class="contribution-detail">(Leaf backsprite base)</span></li>
+				<li>Leob0505 <span class="contribution-detail">(House base)</span></li>
+				<li>RedSquidz <span class="contribution-detail">(Crobat Shadows designs)</span></li>
+				<li>Ogwon <span class="contribution-detail">(Yetizzard sprite base)</span></li>
+				<li>Oom <span class="contribution-detail">(Raitora sprite base)</span></li>
+				<li>Roger Wrightshoe <span class="contribution-detail">(Seashell tile)</span></li>
+				<li>Thedeadheroalistair <span class="contribution-detail">(Misc. tiles)</span></li>
+				<li>Turtleye <span class="contribution-detail">(Berry tree base)</span></li>
+			</ul>
+			<h4>Battle terrain bases</h4>
+			<ul>
+				<li>RavePossum</li>
+				<li>Zuki</li>
+			</ul>
+			<h4>Fonts</h4>
+			<ul>
+				<li>Brush Strokes - fontmeme.com <span class="contribution-detail">(title screen "Hearth" font)</span>
+				</li>
+			</ul>
 
-		<h3>Writing</h3>
-		<h4>Quests</h4>
-		<ul>
-			<li>Ruby <span class="contribution-detail">(Scythers, Tama-Ashii)</span></li>
-		</ul>
-		<h4>Characters</h4>
-		<ul>
-			<li>Kithri</li>
-			<li>Ruby</li>
-			<li>Zatsu</li>
-		</ul>
-		<h4>Flavor text</h4>
-		<ul>
-			<li>Zatsu</li>
-		</ul>
+			<h3>Writing</h3>
+			<h4>Quests</h4>
+			<ul>
+				<li>Ruby <span class="contribution-detail">(Scythers, Tama-Ashii)</span></li>
+			</ul>
+			<h4>Characters</h4>
+			<ul>
+				<li>Kithri</li>
+				<li>Ruby</li>
+				<li>Zatsu</li>
+			</ul>
+			<h4>Flavor text</h4>
+			<ul>
+				<li>Zatsu</li>
+			</ul>
 
-		<h3>Scripting</h3>
-		<h4>Quests</h4>
-		<ul>
-			<li>Iriv <span class="contribution-detail">(Cut Master's garden)</span></li>
-			<li>Ruby <span class="contribution-detail">(Scythers, Tama-Ashii)</span></li>
-		</ul>
+			<h3>Scripting</h3>
+			<h4>Quests</h4>
+			<ul>
+				<li>Iriv <span class="contribution-detail">(Cut Master's garden)</span></li>
+				<li>Ruby <span class="contribution-detail">(Scythers, Tama-Ashii)</span></li>
+			</ul>
 
-		<h3>Mapping</h3>
-		<ul>
-			<li>Zatsu <span class="contribution-detail">(Orchard Pth, Scenic Rt)</span></li>
-		</ul>
+			<h3>Mapping</h3>
+			<ul>
+				<li>Zatsu <span class="contribution-detail">(Orchard Pth, Scenic Rt)</span></li>
+			</ul>
 
-		<h3>Trainer teams & Balance</h3>
-		<ul>
-			<li>Iriv</li>
-			<li>Kithri</li>
-		</ul>
+			<h3>Trainer teams & Balance</h3>
+			<ul>
+				<li>Iriv</li>
+				<li>Kithri</li>
+			</ul>
 
-		<h3>Music</h3>
-		<ul>
-			<li>Mudstep <span class="contribution-detail">(Sunrise Village)</span></li>
-			<li>ShinyDragonHunter <span class="contribution-detail">(Suicune theme arrangement)</span></li>
-		</ul>
+			<h3>Music</h3>
+			<ul>
+				<li>Mudstep <span class="contribution-detail">(Sunrise Village)</span></li>
+				<li>ShinyDragonHunter <span class="contribution-detail">(Suicune theme arrangement)</span></li>
+			</ul>
 
-		<h3>Documentation</h3>
-		<h4>Online PokéDex</h4>
-		<ul>
-			<li>Kildie</li>
-		</ul>
-		<h4>Online interactive region map</h4>
-		<ul>
-			<li>Specker</li>
-		</ul>
-		<h4>Online wiki</h4>
-		<ul>
-			<li>Kildie</li>
-		</ul>
+			<h3>Documentation</h3>
+			<h4>Online PokéDex</h4>
+			<ul>
+				<li>Kildie</li>
+			</ul>
+			<h4>Online interactive region map</h4>
+			<ul>
+				<li>Specker</li>
+			</ul>
+			<h4>Online wiki</h4>
+			<ul>
+				<li>Kildie</li>
+			</ul>
 
-		<h3>Community management</h3>
-		<h4>FAQ & Onboarding</h4>
-		<ul>
-			<li>Kildie</li>
-		</ul>
-		<h4>Discord hooks</h4>
-		<ul>
-			<li>Kildie</li>
-		</ul>
+			<h3>Community management</h3>
+			<h4>FAQ & Onboarding</h4>
+			<ul>
+				<li>Kildie</li>
+			</ul>
+			<h4>Discord hooks</h4>
+			<ul>
+				<li>Kildie</li>
+			</ul>
+		</div>
 	</div>
 
 	<div id="rom-patcher-powered" class="text-center">

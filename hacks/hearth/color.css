@@ -7,6 +7,14 @@
     --page-rom-patcher-link-color: ;
 }
 
+@font-face {
+    font-family: "Hatto";
+    src: url("assets/fonts/hatto_regular.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -19,6 +27,13 @@ h5,
 p {
     padding: 0;
     margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Hatto", serif;
 }
 
 ul {

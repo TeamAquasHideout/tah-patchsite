@@ -156,6 +156,7 @@ main {
     flex-wrap: wrap;
     row-gap: 20px;
     column-gap: 10px;
+    text-align: center;
 }
 
 .hacks_subblock > .hack_buttons > .hack_button {
